@@ -39,8 +39,15 @@ public class PacienteControlador {
         }
         return nuevoListado;
      }
-
-
+    
+    public PacienteModelo obtenerPorCedula(String cedula){
+        for (PacienteModelo pm : pacienteModeloLista) {
+            if(pm.getCedula().equals(cedula)){
+                return pm;
+            }     
+        }
+    return null;
+    }
 }
 
 

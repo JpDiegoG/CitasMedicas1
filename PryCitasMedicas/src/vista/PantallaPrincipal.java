@@ -29,8 +29,8 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         menu_ingresar_medico = new javax.swing.JMenuItem();
         menu_listado_medicos = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
-        jMenuItem7 = new javax.swing.JMenuItem();
-        jMenuItem8 = new javax.swing.JMenuItem();
+        menu_ingresar_citas = new javax.swing.JMenuItem();
+        menu_listado_citas = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -110,11 +110,21 @@ public class PantallaPrincipal extends javax.swing.JFrame {
 
         jMenu5.setText("CITAS");
 
-        jMenuItem7.setText("INGRESAR");
-        jMenu5.add(jMenuItem7);
+        menu_ingresar_citas.setText("INGRESAR");
+        menu_ingresar_citas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menu_ingresar_citasActionPerformed(evt);
+            }
+        });
+        jMenu5.add(menu_ingresar_citas);
 
-        jMenuItem8.setText("LISTADO");
-        jMenu5.add(jMenuItem8);
+        menu_listado_citas.setText("LISTADO");
+        menu_listado_citas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menu_listado_citasActionPerformed(evt);
+            }
+        });
+        jMenu5.add(menu_listado_citas);
 
         jMenuBar1.add(jMenu5);
 
@@ -169,6 +179,18 @@ public class PantallaPrincipal extends javax.swing.JFrame {
       contenedor_principal.add(new vista.medicos.Listado()).setVisible(true);
     }//GEN-LAST:event_menu_listado_medicosActionPerformed
 
+    private void menu_ingresar_citasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_ingresar_citasActionPerformed
+        // TODO add your handling code here:
+      contenedor_principal.removeAll();
+      contenedor_principal.add(new vista.citas.Ingresar()).setVisible(true);
+    }//GEN-LAST:event_menu_ingresar_citasActionPerformed
+
+    private void menu_listado_citasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_listado_citasActionPerformed
+        // TODO add your handling code here:
+      contenedor_principal.removeAll();
+      contenedor_principal.add(new vista.citas.Listado()).setVisible(true);
+    }//GEN-LAST:event_menu_listado_citasActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -213,11 +235,11 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem menu_ingresar_citas;
     private javax.swing.JMenuItem menu_ingresar_especialidades;
     private javax.swing.JMenuItem menu_ingresar_medico;
     private javax.swing.JMenuItem menu_ingresar_paciente;
+    private javax.swing.JMenuItem menu_listado_citas;
     private javax.swing.JMenuItem menu_listado_especialidades;
     private javax.swing.JMenuItem menu_listado_medicos;
     // End of variables declaration//GEN-END:variables

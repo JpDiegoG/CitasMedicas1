@@ -3,16 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/modelo/PacienteModelo.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/prycitasmedicas/PryCitasMedicas.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/controlador/PacienteControlador.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/vista/medicos/Ingresar.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/controlador/EspecialidadControlador.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/vista/especialidades/Ingresar.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/vista/medicos/Listado.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/vista/PantallaPrincipal.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/vista/especialidades/Lista.java</file>
-            <file>file:/C:/Users/USUARIO/Downloads/citas-main/111-main/111-main/PryCitasMedicas/src/controlador/MedicoControlador.java</file>
+            <file>file:/C:/Users/USUARIO/OneDrive/Documentos/NetBeansProjects/PryCitasMedicas/src/vista/PantallaPrincipal.java</file>
+            <file>file:/C:/Users/USUARIO/OneDrive/Documentos/NetBeansProjects/PryCitasMedicas/src/controlador/PacienteControlador.java</file>
+            <file>file:/C:/Users/USUARIO/OneDrive/Documentos/NetBeansProjects/PryCitasMedicas/src/vista/citas/Ingresar.java</file>
+            <file>file:/C:/Users/USUARIO/OneDrive/Documentos/NetBeansProjects/PryCitasMedicas/src/controlador/MedicoControlador.java</file>
+            <file>file:/C:/Users/USUARIO/OneDrive/Documentos/NetBeansProjects/PryCitasMedicas/src/modelo/MedicoModelo.java</file>
         </group>
     </open-files>
 </project-private>

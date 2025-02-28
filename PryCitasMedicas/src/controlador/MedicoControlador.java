@@ -31,4 +31,25 @@ public class MedicoControlador {
      public ArrayList<MedicoModelo> listadoCompleto(){
          return medicoModelos;    
      }
+     
+     public ArrayList<MedicoModelo>listadoPorEspecialidad(String n_e){
+         ArrayList <MedicoModelo> nuevoListado = new ArrayList<>();
+        for (MedicoModelo mm : medicoModelos ) {
+            if(mm.getEspecialidadModelo().getNombre().contains(n_e)){
+                nuevoListado.add(mm);
+            }
+            
+        }
+        return nuevoListado;
+     }
+     
+     public MedicoModelo obtenerPorCedula(String cedula){
+        for (MedicoModelo mm : medicoModelos) {
+            if(mm.getCedula().equals(cedula)){
+                return mm;
+            }     
+        }
+    return null;
+    }
+     
 }

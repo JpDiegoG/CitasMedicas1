@@ -16,4 +16,5 @@ public class MedicoModelo extends PacienteModelo {
     public void setEspecialidadModelo(EspecialidadModelo especialidadModelo) {
         this.especialidadModelo = especialidadModelo;
     }
+    
 }

@@ -17,13 +17,13 @@ public class Lista extends javax.swing.JInternalFrame {
         tbl_listado.setModel(defaultTableModel);
         String columnas[]={"Nombre"};
         defaultTableModel.setColumnIdentifiers(columnas);
-cargarListadoE();
+        cargarListadoE();
 
         }
-private void cargarListadoE() {
-    for (EspecialidadModelo em : ec.lista()) {
-        Object[] fila = {em.getNombre()};
-        defaultTableModel.addRow(fila);
+    private void cargarListadoE() {
+        for (EspecialidadModelo em : ec.lista()) {
+            Object[] fila = {em.getNombre()};
+            defaultTableModel.addRow(fila);
     }
 }
 
